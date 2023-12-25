@@ -1,2 +1,2 @@
 # gemini
-genimi
+genimi模型
