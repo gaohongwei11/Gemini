@@ -8,10 +8,6 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build:preview": "vue-cli-service build --no-module --mode preview",
-    "lint:nofix": "vue-cli-service lint --no-fix",
-    "lint:js": "eslint src/**/*.js --fix",
-    "lint:css": "stylelint src/**/*.*ss --fix  --custom-syntax postcss-less",
-    "prepare": "husky install"
   },
   "dependencies": {
     "@ant-design-vue/pro-layout": "^1.0.12",
@@ -51,7 +47,6 @@
     "@commitlint/config-conventional": "^12.1.4",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
     "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-plugin-router": "~5.0.8",
     "@vue/cli-plugin-unit-jest": "~5.0.8",
     "@vue/cli-plugin-vuex": "~5.0.8",
@@ -63,9 +58,6 @@
     "babel-plugin-transform-remove-console": "^6.9.4",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.0.0",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-vue": "^5.2.3",
     "file-loader": "^6.2.0",
     "git-revision-webpack-plugin": "^3.0.6",
     "husky": "^6.0.0",
