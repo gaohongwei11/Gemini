@@ -7,7 +7,7 @@
     "build": "vue-cli-service build --no-module",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "build:preview": "vue-cli-service build --no-module --mode preview",
+    "build:preview": "vue-cli-service build --no-module --mode preview"
   },
   "dependencies": {
     "@ant-design-vue/pro-layout": "^1.0.12",
