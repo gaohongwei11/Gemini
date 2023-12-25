@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkgemini"]=self["webpackChunkgemini"]||[]).push([[7],{3872:(s,e,u)=>{u.r(e),u.d(e,{default:()=>i});const i={submit:"Submit",save:"Save","submit.ok":"Submit successfully","save.ok":"Saved successfully"}}}]);
